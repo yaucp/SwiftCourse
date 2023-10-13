@@ -36,3 +36,23 @@ print(employee["name", default: "Unknown"])
 var heights = [String: Int]() //decalre type + empty dict
 heights["Shaq"] = 200
 heights["Angel"] = 170
+
+// Set
+let actors = Set([
+    "Samuel",
+    "Daniel"
+])
+print(actors)
+
+// OR
+var actorsNew = Set<String>()
+actorsNew.insert("Samuel L Jackson")
+
+//ENUM nice
+//looks much better than JS
+enum Weekday {
+    case Monday, Tuesday
+    case Wednesday
+}
+var day = Weekday.Tuesday
+day = .Monday // day must have the same enum type, no need to specify!!
