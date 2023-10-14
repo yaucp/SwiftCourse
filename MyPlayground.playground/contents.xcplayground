@@ -2,6 +2,7 @@
 <playground version='6.0' target-platform='macos' buildActiveScheme='true' importAppTypes='true'>
     <pages>
         <page name='Day3'/>
+        <page name='Day4'/>
         <page name='Day1+2'/>
     </pages>
 </playground>
