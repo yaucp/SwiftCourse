@@ -25,3 +25,28 @@ if username.isEmpty {
     print("Hello there \(username)!")
 }
  
+//Switch
+enum Weather {
+    case sun, rain, cloud, snow
+}
+// Switch forces to be exhaustive, i.e. must check all the possible cases
+// Only run the matched cases as well only in Swift! (no need to break)
+let currentWeather = Weather.sun
+switch currentWeather {
+case .sun:
+    print("Hot!")
+//  add fallthrough if you want (similar to Golang!)
+case .rain:
+    print("Wet moist!")
+case .cloud:
+    print("cloudyyyyy")
+case .snow:
+    print("White christmas")
+default:
+    print("Defaultwooo")
+    
+}
+
+//Ternary Conditional (one-line if)
+//Same with JS
+// cond ? true : false
