@@ -122,7 +122,7 @@ extension Person {
     }
 }
 
-//Checkpoints 5
+//Checkpoints 8
 protocol Building {
     var numOfRooms: Int {get}
     var cost: Int {get set}
